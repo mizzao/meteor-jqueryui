@@ -1,0 +1,12 @@
+[
+    {
+        "file": "jquery-ui.min.js",
+        "url": "http://code.jquery.com/ui/1.10.3/jquery-ui.min.js",
+        "bare": true
+    }
+    ,
+    {
+        "file": "jquery-ui.css",
+        "url": "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
+    }
+]

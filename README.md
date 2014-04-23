@@ -10,4 +10,4 @@ You should be aware of potential incompatibilities between jQuery UI and the ver
 ## Usage
 
 1. Install [meteorite](https://github.com/oortcloud/meteorite)
-2. `mrt install jqueryui`
+2. `mrt add jqueryui`

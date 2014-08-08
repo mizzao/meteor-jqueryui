@@ -1,12 +1,15 @@
 Package.describe({
-    summary: "Simple lightweight pull-in for jQuery UI in Meteor"
+  summary: "Simple lightweight pull-in for jQuery UI in Meteor",
+  version: "1.11.0",
+  git: "https://github.com/mizzao/meteor-jqueryui.git"
 });
 
-Package.on_use(function (api) {
-    api.use('jquery', 'client'); // Of course the client needs to have this first
-    api.use('templating', 'client');
+Package.onUse(function (api) {
+  api.versionsFrom("METEOR-CORE@0.9.0-atm");
 
-    api.use('build-fetcher', 'client');
+  api.use('jquery', 'client');
 
-    api.add_files('jqueryui.fetch.json', 'client');
+  api.use("mizzao:build-fetcher@>=0.2.0", 'client');
+
+  api.add_files('jqueryui.fetch.json', 'client');
 });

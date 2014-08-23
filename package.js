@@ -9,7 +9,7 @@ Package.onUse(function (api) {
 
   api.use('jquery', 'client');
 
-  api.use("mizzao:build-fetcher@>=0.2.0", 'client');
+  api.use("mizzao:build-fetcher@0.2.0", 'client');
 
   api.add_files('jqueryui.fetch.json', 'client');
 });

@@ -13,9 +13,13 @@ as many of the conflicts have been resolved.
 Install with Meteor 0.9.0 and above:
 
 ```
-meteor add mizzao:jquery-ui
+$ meteor add mizzao:jquery-ui
 ```
 
 The default smoothness theme and images are included. If you want to change the
-theme, install the package locally, edit the file `generate.js` as necessary,
-then run `node generate.js > jqueryui.fetch.json`.
+theme for an app, follow these steps:
+
+1. Install the package locally by checking it out into `packages/mizzao:jquery-ui`.
+2. Edit the file `generate.js` as necessary to point at the URLs for the theme you want.
+3. Run `node generate.js > jqueryui.fetch.json`.
+4. Start or bundle your app.

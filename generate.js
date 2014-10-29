@@ -3,7 +3,7 @@ var url = require("url");
 
 var output = [];
 
-var urlPrefix = "http://code.jquery.com/ui/1.11.0/";
+var urlPrefix = "http://code.jquery.com/ui/1.11.2/";
 var themePrefix = "themes/smoothness/";
 
 // Base file

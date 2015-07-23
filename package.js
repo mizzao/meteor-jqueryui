@@ -1,7 +1,7 @@
 Package.describe({
   name: "mizzao:jquery-ui",
   summary: "Simple lightweight pull-in for jQuery UI in Meteor",
-  version: "1.11.2",
+  version: "1.11.4",
   git: "https://github.com/mizzao/meteor-jqueryui.git"
 });
 
